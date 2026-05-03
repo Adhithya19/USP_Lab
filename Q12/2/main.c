@@ -14,3 +14,4 @@ int main()
         execl("./echoall", "echoall", NULL); // parent → default env
     }
 }
+// compile echoall.c with cc echoall.c -o echoall then compile this with cc main.c -o main

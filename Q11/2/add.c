@@ -7,3 +7,4 @@ int main(int c, char *v[])
     int b = atoi(v[2]);
     printf("Sum: %d\n", a + b);
 }
+// compile with cc add.c -o add
