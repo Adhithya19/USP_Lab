@@ -9,9 +9,9 @@ int main(int c, char *v[])
     struct stat s;
     char p[200];
 
-    printf("ino\t size\t mode\t links\t name\n")
+    printf("ino\t size\t mode\t links\t name\n");
 
-        while ((e = readdir(d)))
+    while ((e = readdir(d)))
     {
         sprintf(p, "%s/%s", v[1], e->d_name);
         stat(p, &s);
